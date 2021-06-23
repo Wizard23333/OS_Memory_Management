@@ -38,33 +38,33 @@ Qt Creator版本：`4.8.2`
 
 + **实时显示主存占用情况**
 
-  ![image-20210606200558804](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606200558804.png)
+  ![image-20210606200558804](/Users/wuhaotian/OneDrive - envisioneer end-to-end e-services/大二 下/操作系统/小项目/1953981_吴昊天_动态分区分配方式/设计方案报告-动态分区分配模拟.assets/image-20210606200558804.png)
 
   执行申请或释放操作之后，占用主存的作业进程在主存中显示画出，并用不同的颜色标识，同时在对应的块上用文字标出作业号和占用内存大小，灰色部分显示的未占用内存
 
 + **日志信息显示**
 
-  ![image-20210606201820674](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606201820674.png)
+  ![image-20210606201820674](设计方案报告-动态分区分配模拟.assets/image-20210606201820674.png)
 
-  ![image-20210606201641926](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606201641926.png)
+  ![image-20210606201641926](./设计方案报告-动态分区分配模拟.assets/image-20210606201641926.png)
 
   在每次进行操作后，显示操作的信息，包括操作的作业号，内存大小，成功与否
 
 + **内存大小调节**
 
-  ![image-20210606202145002](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606202145002.png)
+  ![image-20210606202145002](./设计方案报告-动态分区分配模拟.assets/image-20210606202145002.png)
 
-  ![image-20210606202227641](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606202227641.png)
+  ![image-20210606202227641](./设计方案报告-动态分区分配模拟.assets/image-20210606202227641.png)
 
   自定义的调节内存大小，可以实现从`0K`到`10000K`内存大小的调节，对应的内存显示也随之变化
 
 + **不同的分配算法选择**
 
-  ![image-20210606202630903](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606202630903.png)
+  ![image-20210606202630903](./设计方案报告-动态分区分配模拟.assets/image-20210606202630903.png)
 
   选择**首次适应**算法后，使用**默认数据**运行到最后一步的结果
 
-  ![image-20210606202822126](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606202822126.png)
+  ![image-20210606202822126](./设计方案报告-动态分区分配模拟.assets/image-20210606202822126.png)
 
   选择**最佳适应**算法后，使用**默认数据**运行到最后一步的结果
 
@@ -72,55 +72,55 @@ Qt Creator版本：`4.8.2`
 
   使用ppt中给定数据进行运行，不需要手动输入需要申请的内存大小，以下是在**首次适应算法**下的部分运行图，两种算法总的运行图已经过验证，满足各算法的要求。
 
-  ![image-20210606203222654](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606203222654.png)
+  ![image-20210606203222654](./设计方案报告-动态分区分配模拟.assets/image-20210606203222654.png)
 
-  ![image-20210606203252010](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606203252010.png)
+  ![image-20210606203252010](./设计方案报告-动态分区分配模拟.assets/image-20210606203252010.png)
 
-  ![image-20210606203305572](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606203305572.png)
+  ![image-20210606203305572](./设计方案报告-动态分区分配模拟.assets/image-20210606203305572.png)
 
-  ![image-20210606203321687](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606203321687.png)
+  ![image-20210606203321687](./设计方案报告-动态分区分配模拟.assets/image-20210606203321687.png)
 
-  ![image-20210606203345037](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606203345037.png)
+  ![image-20210606203345037](./设计方案报告-动态分区分配模拟.assets/image-20210606203345037.png)
 
-  ![image-20210606203408526](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606203408526.png)
+  ![image-20210606203408526](./设计方案报告-动态分区分配模拟.assets/image-20210606203408526.png)
 
-  ![image-20210606203422745](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606203422745.png)
+  ![image-20210606203422745](./设计方案报告-动态分区分配模拟.assets/image-20210606203422745.png)
 
-  ![image-20210606203437272](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606203437272.png)
+  ![image-20210606203437272](./设计方案报告-动态分区分配模拟.assets/image-20210606203437272.png)
 
-  ![image-20210606203454180](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606203454180.png)
+  ![image-20210606203454180](./设计方案报告-动态分区分配模拟.assets/image-20210606203454180.png)
 
-  ![image-20210606203515775](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606203515775.png)
+  ![image-20210606203515775](./设计方案报告-动态分区分配模拟.assets/image-20210606203515775.png)
 
-  ![image-20210606203536260](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606203536260.png)
+  ![image-20210606203536260](./设计方案报告-动态分区分配模拟.assets/image-20210606203536260.png)
 
 + **自定义数据运行**
 
   由于自定义数据可以很多，这里只展示一次运行中部分状态的截图，此次选择**最佳适应算法**来进行测试，并且设置自定义的**内存大小**
 
-  ![image-20210606204138250](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606204138250.png)
+  ![image-20210606204138250](./设计方案报告-动态分区分配模拟.assets/image-20210606204138250.png)
 
-  ![image-20210606204258687](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606204258687.png)
+  ![image-20210606204258687](./设计方案报告-动态分区分配模拟.assets/image-20210606204258687.png)
 
-  ![image-20210606204342901](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606204342901.png)
+  ![image-20210606204342901](./设计方案报告-动态分区分配模拟.assets/image-20210606204342901.png)
 
-  ![image-20210606204405940](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606204405940.png)
+  ![image-20210606204405940](./设计方案报告-动态分区分配模拟.assets/image-20210606204405940.png)
 
-  ![image-20210606204446505](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606204446505.png)
+  ![image-20210606204446505](./设计方案报告-动态分区分配模拟.assets/image-20210606204446505.png)
 
-  ![image-20210606204526040](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606204526040.png)
+  ![image-20210606204526040](./设计方案报告-动态分区分配模拟.assets/image-20210606204526040.png)
 
 + **其他功能**
 
-  ![image-20210606205151136](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606205151136.png)
+  ![image-20210606205151136](./设计方案报告-动态分区分配模拟.assets/image-20210606205151136.png)
 
-  ![image-20210606204826070](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606204826070.png)
+  ![image-20210606204826070](./设计方案报告-动态分区分配模拟.assets/image-20210606204826070.png)
 
   点击**确认配置**按钮之后，使得相应的按钮被禁用，避免误触
 
-  ![image-20210606205026910](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606205026910.png)
+  ![image-20210606205026910](./设计方案报告-动态分区分配模拟.assets/image-20210606205026910.png)
 
-  ![image-20210606205012894](C:\Users\WuHaotian\OneDrive - envisioneer end-to-end e-services\大二 下\操作系统\小项目\1953981_吴昊天_动态分区分配方式\设计方案报告-动态分区分配模拟.assets\image-20210606205012894.png)
+  ![image-20210606205012894](./设计方案报告-动态分区分配模拟.assets/image-20210606205012894.png)
 
   **重置/停止**按钮将所有的**设置**和**内存显示区**以及**日志区**全部清零，
 
